@@ -11,7 +11,7 @@ function getPosition(imei){
     function showPosition(position) {
 
         var imeix = "x"
-
+         console.log('window.IMEI >> ', window.IMEI)
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
       
